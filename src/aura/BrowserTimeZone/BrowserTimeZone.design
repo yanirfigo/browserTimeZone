@@ -1,0 +1,4 @@
+<design:component>
+    <!-- Input/Output Attributes -->
+    <design:attribute name="browserTimezone" label="Browsers timezone" description="salesforce supported browsers timezone." />
+</design:component>

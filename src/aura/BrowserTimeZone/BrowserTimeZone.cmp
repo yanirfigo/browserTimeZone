@@ -1,0 +1,15 @@
+<aura:component 
+    implements="lightning:availableForFlowScreens"
+    description="Component to get the Browsers Timezone"
+    controller = "TimeZoneController">
+
+    <!-- Flow Attributes -->
+    <aura:attribute name="browserTimezone" type="String" description="salesforce supported browsers timezone." />
+    
+    <!-- Attributes -->
+    <aura:attribute name="timezoneOptions" type="List" description="List of time zones for the time zone pick list." />
+
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.init }" />
+    
+</aura:component>
