@@ -43,7 +43,7 @@
             <name>serviceAppointmentId</name>
         </outputParameters>
     </actionCalls>
-    <apiVersion>55.0</apiVersion>
+    <apiVersion>54.0</apiVersion>
     <assignments>
         <name>Initial_Assignment</name>
         <label>Initial Assignment</label>
