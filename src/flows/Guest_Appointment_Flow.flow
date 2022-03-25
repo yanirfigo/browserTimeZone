@@ -1010,12 +1010,6 @@
                     <elementReference>FilterByResourceIds</elementReference>
                 </value>
             </inputParameters>
-            <inputParameters>
-                <name>hideStOh</name>
-                <value>
-                    <elementReference>hideStOh</elementReference>
-                </value>
-            </inputParameters>
             <inputsOnNextNavToAssocScrn>ResetValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <outputParameters>
@@ -1649,14 +1643,6 @@
     <variables>
         <name>FilterByWorkTypeGroupIds</name>
         <dataType>String</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-    </variables>
-    <variables>
-        <description>Specify whether to display ST OH or not</description>
-        <name>hideStOh</name>
-        <dataType>Boolean</dataType>
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
