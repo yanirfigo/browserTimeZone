@@ -1491,12 +1491,6 @@
                     <elementReference>FilterByWorkTypeGroupIds</elementReference>
                 </value>
             </inputParameters>
-            <inputParameters>
-                <name>schedulingPolicyName</name>
-                <value>
-                    <elementReference>SchedulingPolicyName</elementReference>
-                </value>
-            </inputParameters>
             <inputsOnNextNavToAssocScrn>ResetValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <outputParameters>
